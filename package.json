@@ -12,7 +12,7 @@
     "url": "https://github.com/WindrunnerMax/EmbedDrawIO"
   },
   "scripts": {
-    "dev": "react-app-rewired start",
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider & react-app-rewired start",
     "build": "react-app-rewired build",
     "build:packages": "rm -rf ./dist && rollup -c",
     "lint-es": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-path .gitignore .",
